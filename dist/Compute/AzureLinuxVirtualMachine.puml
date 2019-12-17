@@ -1,0 +1,10 @@
+sprite $AzureLinuxVirtualMachine [70x70/16z] {
+vT05qZOf303X2H2qxt_UvNMsFYMPtnifVv3ZDqjStOZaIrN36SXaeX-PUGs_elzNr5Q-j2ZPr4zNIckjU9NEfUvJ1hU6H-ayQWw5P-CK1Ryol4fL608KZp9A
+p1sdqhF665E7wb3gHT7Se3kKCHNLoioiLAXPSqE1PbKWjvmxIGfGR4gZInZqA1A0OLD0PG9oQG3TedH8CdigL8C2nAUIc8rzfK2LLuLPtLOQ95bYrhSLGDO6
+irsbGfUrPb4wjBTAsLJ6WB0gtQ3CEdr1ekb5CsWl91UW6fG2_QNaGSi69JVGbp8pAJgU7vpjIjOejsfpA3d9BEH1zIYPUyMbZ5EKSjjRzYZF_aabgRb5yKch
+efwY7vaTPo1o7F539Bz9toiUdnNhcuxzmXia6nHve-WfTqa69Prob_96ATj6AFLjMJQ-DKHTZJMDuGifvgta0qMt-WEKu51-d_u3
+}
+
+AzureEntityColoring(AzureLinuxVirtualMachine)
+!define AzureLinuxVirtualMachine(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureLinuxVirtualMachine, AzureLinuxVirtualMachine)
+!define AzureLinuxVirtualMachine(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureLinuxVirtualMachine, AzureLinuxVirtualMachine)

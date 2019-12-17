@@ -79,22 +79,6 @@
       "$0"
     ]
   },
-  "AzureBotService": {
-    "prefix": "Azure Bot Service",
-    "description": "Add Azure Bot Service to diagram",
-    "body": [
-      "AzureBotService(${1:alias}, \"${2:label}\", \"${3:technology}\")",
-      "$0"
-    ]
-  },
-  "AzureBotService_Descr": {
-    "prefix": "Azure Bot Service with Description",
-    "description": "Add Azure Bot Service with Description to diagram",
-    "body": [
-      "AzureBotService(${1:alias}, \"${2:label}\", \"${3:technology}\", \"${4:description}\")",
-      "$0"
-    ]
-  },
   "AzureCognitiveServices": {
     "prefix": "Azure Cognitive Services",
     "description": "Add Azure Cognitive Services to diagram",
@@ -127,6 +111,22 @@
       "$0"
     ]
   },
+  "AzureMachineLearningServiceWorkspace": {
+    "prefix": "Azure Machine Learning Service Workspace",
+    "description": "Add Azure Machine Learning Service Workspace to diagram",
+    "body": [
+      "AzureMachineLearningServiceWorkspace(${1:alias}, \"${2:label}\", \"${3:technology}\")",
+      "$0"
+    ]
+  },
+  "AzureMachineLearningServiceWorkspace_Descr": {
+    "prefix": "Azure Machine Learning Service Workspace with Description",
+    "description": "Add Azure Machine Learning Service Workspace with Description to diagram",
+    "body": [
+      "AzureMachineLearningServiceWorkspace(${1:alias}, \"${2:label}\", \"${3:technology}\", \"${4:description}\")",
+      "$0"
+    ]
+  },
   "AzureMachineLearningStudio": {
     "prefix": "Azure Machine Learning Studio",
     "description": "Add Azure Machine Learning Studio to diagram",
@@ -143,6 +143,38 @@
       "$0"
     ]
   },
+  "AzureMachineLearningStudioWorkspace": {
+    "prefix": "Azure Machine Learning Studio Workspace",
+    "description": "Add Azure Machine Learning Studio Workspace to diagram",
+    "body": [
+      "AzureMachineLearningStudioWorkspace(${1:alias}, \"${2:label}\", \"${3:technology}\")",
+      "$0"
+    ]
+  },
+  "AzureMachineLearningStudioWorkspace_Descr": {
+    "prefix": "Azure Machine Learning Studio Workspace with Description",
+    "description": "Add Azure Machine Learning Studio Workspace with Description to diagram",
+    "body": [
+      "AzureMachineLearningStudioWorkspace(${1:alias}, \"${2:label}\", \"${3:technology}\", \"${4:description}\")",
+      "$0"
+    ]
+  },
+  "MicrosoftAccounts": {
+    "prefix": "Microsoft Accounts",
+    "description": "Add Microsoft Accounts to diagram",
+    "body": [
+      "MicrosoftAccounts(${1:alias}, \"${2:label}\", \"${3:technology}\")",
+      "$0"
+    ]
+  },
+  "MicrosoftAccounts_Descr": {
+    "prefix": "Microsoft Accounts with Description",
+    "description": "Add Microsoft Accounts with Description to diagram",
+    "body": [
+      "MicrosoftAccounts(${1:alias}, \"${2:label}\", \"${3:technology}\", \"${4:description}\")",
+      "$0"
+    ]
+  },
   "MicrosoftGenomics": {
     "prefix": "Microsoft Genomics",
     "description": "Add Microsoft Genomics to diagram",
@@ -156,22 +188,6 @@
     "description": "Add Microsoft Genomics with Description to diagram",
     "body": [
       "MicrosoftGenomics(${1:alias}, \"${2:label}\", \"${3:technology}\", \"${4:description}\")",
-      "$0"
-    ]
-  },
-  "AzureAnalysisServices": {
-    "prefix": "Azure Analysis Services",
-    "description": "Add Azure Analysis Services to diagram",
-    "body": [
-      "AzureAnalysisServices(${1:alias}, \"${2:label}\", \"${3:technology}\")",
-      "$0"
-    ]
-  },
-  "AzureAnalysisServices_Descr": {
-    "prefix": "Azure Analysis Services with Description",
-    "description": "Add Azure Analysis Services with Description to diagram",
-    "body": [
-      "AzureAnalysisServices(${1:alias}, \"${2:label}\", \"${3:technology}\", \"${4:description}\")",
       "$0"
     ]
   },
@@ -223,6 +239,38 @@
       "$0"
     ]
   },
+  "AzureDataLakeAnalytics": {
+    "prefix": "Azure Data Lake Analytics",
+    "description": "Add Azure Data Lake Analytics to diagram",
+    "body": [
+      "AzureDataLakeAnalytics(${1:alias}, \"${2:label}\", \"${3:technology}\")",
+      "$0"
+    ]
+  },
+  "AzureDataLakeAnalytics_Descr": {
+    "prefix": "Azure Data Lake Analytics with Description",
+    "description": "Add Azure Data Lake Analytics with Description to diagram",
+    "body": [
+      "AzureDataLakeAnalytics(${1:alias}, \"${2:label}\", \"${3:technology}\", \"${4:description}\")",
+      "$0"
+    ]
+  },
+  "AzureEventHub": {
+    "prefix": "Azure Event Hub",
+    "description": "Add Azure Event Hub to diagram",
+    "body": [
+      "AzureEventHub(${1:alias}, \"${2:label}\", \"${3:technology}\")",
+      "$0"
+    ]
+  },
+  "AzureEventHub_Descr": {
+    "prefix": "Azure Event Hub with Description",
+    "description": "Add Azure Event Hub with Description to diagram",
+    "body": [
+      "AzureEventHub(${1:alias}, \"${2:label}\", \"${3:technology}\", \"${4:description}\")",
+      "$0"
+    ]
+  },
   "AzureHDInsight": {
     "prefix": "Azure H D Insight",
     "description": "Add Azure H D Insight to diagram",
@@ -239,6 +287,22 @@
       "$0"
     ]
   },
+  "AzureHDInsightCluster": {
+    "prefix": "Azure H D Insight Cluster",
+    "description": "Add Azure H D Insight Cluster to diagram",
+    "body": [
+      "AzureHDInsightCluster(${1:alias}, \"${2:label}\", \"${3:technology}\")",
+      "$0"
+    ]
+  },
+  "AzureHDInsightCluster_Descr": {
+    "prefix": "Azure H D Insight Cluster with Description",
+    "description": "Add Azure H D Insight Cluster with Description to diagram",
+    "body": [
+      "AzureHDInsightCluster(${1:alias}, \"${2:label}\", \"${3:technology}\", \"${4:description}\")",
+      "$0"
+    ]
+  },
   "AzureStreamAnalytics": {
     "prefix": "Azure Stream Analytics",
     "description": "Add Azure Stream Analytics to diagram",
@@ -252,6 +316,54 @@
     "description": "Add Azure Stream Analytics with Description to diagram",
     "body": [
       "AzureStreamAnalytics(${1:alias}, \"${2:label}\", \"${3:technology}\", \"${4:description}\")",
+      "$0"
+    ]
+  },
+  "AzureStreamAnalyticsJob": {
+    "prefix": "Azure Stream Analytics Job",
+    "description": "Add Azure Stream Analytics Job to diagram",
+    "body": [
+      "AzureStreamAnalyticsJob(${1:alias}, \"${2:label}\", \"${3:technology}\")",
+      "$0"
+    ]
+  },
+  "AzureStreamAnalyticsJob_Descr": {
+    "prefix": "Azure Stream Analytics Job with Description",
+    "description": "Add Azure Stream Analytics Job with Description to diagram",
+    "body": [
+      "AzureStreamAnalyticsJob(${1:alias}, \"${2:label}\", \"${3:technology}\", \"${4:description}\")",
+      "$0"
+    ]
+  },
+  "AzureAppService": {
+    "prefix": "Azure App Service",
+    "description": "Add Azure App Service to diagram",
+    "body": [
+      "AzureAppService(${1:alias}, \"${2:label}\", \"${3:technology}\")",
+      "$0"
+    ]
+  },
+  "AzureAppService_Descr": {
+    "prefix": "Azure App Service with Description",
+    "description": "Add Azure App Service with Description to diagram",
+    "body": [
+      "AzureAppService(${1:alias}, \"${2:label}\", \"${3:technology}\", \"${4:description}\")",
+      "$0"
+    ]
+  },
+  "AzureAppServicePlan": {
+    "prefix": "Azure App Service Plan",
+    "description": "Add Azure App Service Plan to diagram",
+    "body": [
+      "AzureAppServicePlan(${1:alias}, \"${2:label}\", \"${3:technology}\")",
+      "$0"
+    ]
+  },
+  "AzureAppServicePlan_Descr": {
+    "prefix": "Azure App Service Plan with Description",
+    "description": "Add Azure App Service Plan with Description to diagram",
+    "body": [
+      "AzureAppServicePlan(${1:alias}, \"${2:label}\", \"${3:technology}\", \"${4:description}\")",
       "$0"
     ]
   },
@@ -287,6 +399,54 @@
       "$0"
     ]
   },
+  "AzureLinuxVirtualMachine": {
+    "prefix": "Azure Linux Virtual Machine",
+    "description": "Add Azure Linux Virtual Machine to diagram",
+    "body": [
+      "AzureLinuxVirtualMachine(${1:alias}, \"${2:label}\", \"${3:technology}\")",
+      "$0"
+    ]
+  },
+  "AzureLinuxVirtualMachine_Descr": {
+    "prefix": "Azure Linux Virtual Machine with Description",
+    "description": "Add Azure Linux Virtual Machine with Description to diagram",
+    "body": [
+      "AzureLinuxVirtualMachine(${1:alias}, \"${2:label}\", \"${3:technology}\", \"${4:description}\")",
+      "$0"
+    ]
+  },
+  "AzureServiceFabric": {
+    "prefix": "Azure Service Fabric",
+    "description": "Add Azure Service Fabric to diagram",
+    "body": [
+      "AzureServiceFabric(${1:alias}, \"${2:label}\", \"${3:technology}\")",
+      "$0"
+    ]
+  },
+  "AzureServiceFabric_Descr": {
+    "prefix": "Azure Service Fabric with Description",
+    "description": "Add Azure Service Fabric with Description to diagram",
+    "body": [
+      "AzureServiceFabric(${1:alias}, \"${2:label}\", \"${3:technology}\", \"${4:description}\")",
+      "$0"
+    ]
+  },
+  "AzureVirtualMachine": {
+    "prefix": "Azure Virtual Machine",
+    "description": "Add Azure Virtual Machine to diagram",
+    "body": [
+      "AzureVirtualMachine(${1:alias}, \"${2:label}\", \"${3:technology}\")",
+      "$0"
+    ]
+  },
+  "AzureVirtualMachine_Descr": {
+    "prefix": "Azure Virtual Machine with Description",
+    "description": "Add Azure Virtual Machine with Description to diagram",
+    "body": [
+      "AzureVirtualMachine(${1:alias}, \"${2:label}\", \"${3:technology}\", \"${4:description}\")",
+      "$0"
+    ]
+  },
   "AzureVirtualMachineScaleSet": {
     "prefix": "Azure Virtual Machine Scale Set",
     "description": "Add Azure Virtual Machine Scale Set to diagram",
@@ -300,6 +460,22 @@
     "description": "Add Azure Virtual Machine Scale Set with Description to diagram",
     "body": [
       "AzureVirtualMachineScaleSet(${1:alias}, \"${2:label}\", \"${3:technology}\", \"${4:description}\")",
+      "$0"
+    ]
+  },
+  "AzureWindowsVirtualMachine": {
+    "prefix": "Azure Windows Virtual Machine",
+    "description": "Add Azure Windows Virtual Machine to diagram",
+    "body": [
+      "AzureWindowsVirtualMachine(${1:alias}, \"${2:label}\", \"${3:technology}\")",
+      "$0"
+    ]
+  },
+  "AzureWindowsVirtualMachine_Descr": {
+    "prefix": "Azure Windows Virtual Machine with Description",
+    "description": "Add Azure Windows Virtual Machine with Description to diagram",
+    "body": [
+      "AzureWindowsVirtualMachine(${1:alias}, \"${2:label}\", \"${3:technology}\", \"${4:description}\")",
       "$0"
     ]
   },
@@ -364,22 +540,6 @@
     "description": "Add Azure Service Fabric Mesh with Description to diagram",
     "body": [
       "AzureServiceFabricMesh(${1:alias}, \"${2:label}\", \"${3:technology}\", \"${4:description}\")",
-      "$0"
-    ]
-  },
-  "AzureWebAppForContainers": {
-    "prefix": "Azure Web App For Containers",
-    "description": "Add Azure Web App For Containers to diagram",
-    "body": [
-      "AzureWebAppForContainers(${1:alias}, \"${2:label}\", \"${3:technology}\")",
-      "$0"
-    ]
-  },
-  "AzureWebAppForContainers_Descr": {
-    "prefix": "Azure Web App For Containers with Description",
-    "description": "Add Azure Web App For Containers with Description to diagram",
-    "body": [
-      "AzureWebAppForContainers(${1:alias}, \"${2:label}\", \"${3:technology}\", \"${4:description}\")",
       "$0"
     ]
   },

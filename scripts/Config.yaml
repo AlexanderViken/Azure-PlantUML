@@ -6,64 +6,84 @@ Categories:
 
 - Name: AIMachineLearning
   Services:
-  - Source: Azure Batch AI
+  - Source: Batch AI
     Target: AzureBatchAI   
-  - Source: Azure Bot Service
+  - Source: Bot Service
     Target: AzureBotService
-  - Source: Azure Cognitive Services
+  - Source: Cognitive Services
     Target: AzureCognitiveServices
-  - Source: Azure Machine Learning Service
+  - Source: Machine Learning Service Workspaces
     Target: AzureMachineLearningService
-  - Source: Azure Machine Learning Studio
+  - Source: Machine Learning Service Workspaces
+    Target: AzureMachineLearningServiceWorkspace
+  - Source: Machine Learning Studio Workspaces
     Target: AzureMachineLearningStudio
-  - Source: Microsoft Genomics
+  - Source: Machine Learning Studio Workspaces
+    Target: AzureMachineLearningStudioWorkspace
+  - Source: Genomics Accounts
     Target: MicrosoftGenomics
+  - Source: Genomics Accounts
+    Target: MicrosoftAccounts
 
 - Name: Analytics
   Services:
-  - Source: AzureStreamAnalytics
+  - Source: Stream Analytics Jobs
     Target: AzureStreamAnalytics
+  - Source: Stream Analytics Jobs
+    Target: AzureStreamAnalyticsJob
   - Source: Azure Databricks
     Target: AzureDatabricks
-  - Source: AzureHDInsight
+  - Source: HDInsightClusters
     Target: AzureHDInsight
-  - Source: Azure Data Lake Analytics
+  - Source: HDInsightClusters
+    Target: AzureHDInsightCluster
+  - Source: Data Lake Analytics
     Target: AzureDataLakeAnalytics
-  - Source: Azure Analysis Service
+  - Source: Analysis Service
     Target: AzureAnalysisServices
-  - Source: Azure Event Hubs
+  - Source: Event Hubs
     Target: AzureEventHub    
+  - Source: Event Grid
+    Target: AzureEventGrid
   - Source: Azure Data Catalog
     Target: AzureDataCatalog
-  - Source: Azure Data Explorer
-    Target: AzureDataExplorer    
+  - Source: Azure Data Explorer Clusters
+    Target: AzureDataExplorer  
 
 - Name: Compute
   Services:
-  - Source: Azure Virtual Machine
+  - Source: VM
     Target: AzureVirtualMachine
-  - Source: Azure App Service
+  - Source: VM Imaes
+    Target: AzureVirtualMachineImage
+  - Source: VM-Linux
+    Target: AzureLinuxVirtualMachine
+  - Source: VM-windows
+    Target: AzureWindowsVirtualMachine
+  - Source: App Services
     Target: AzureAppService
-  - Source: Azure Functions
+  - Source: App Service Plans
+    Target: AzureAppServicePlan
+  - Source: Function Apps
     Target: AzureFunction
   - Source: Azure Batch
     Target: AzureBatch
-  - Source: Azure Service Fabric
+  - Source: Service Fabric Clusters
     Target: AzureServiceFabric
-  - Source: Azure VM Scale Set
+  - Source: VM Scale Sets
     Target: AzureVirtualMachineScaleSet
 
 - Name: Containers
   Services:
-  - Source: Azure Container Registry
+  - Source: Container Registries
     Target: AzureContainerRegistry
-  - Source: container-instances
+  - Source: Container Instances
     Target: AzureContainerInstance
-  - Source: Azure Service Fabric Mesh
+  - Source: Mesh Applications
     Target: AzureServiceFabricMesh
-  - Source: Azure Kubernetes Service
+  - Source: Kubernetes Services
     Target: AzureKubernetesService   
-  - Source: app-service-containers
+  - Source: Service Containerss
     Target: AzureWebAppForContainers
 
 - Name: Databases
