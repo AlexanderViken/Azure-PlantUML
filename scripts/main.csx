@@ -1,6 +1,4 @@
-#! "netcoreapp2.0"
-
-#r "nuget: System.Drawing.Common, 4.5.0"
+#r "nuget: System.Drawing.Common, 4.7.0"
 
 #load "lib/Config.csx"
 #load "lib/HSLColor.csx"

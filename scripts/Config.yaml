@@ -202,6 +202,8 @@ Categories:
     Target: AzureVirtualWAN
   - Source: Azure Front Door Service
     Target: AzureFrontDoorService
+  - Source: Azure Firewall
+    Target: AzureFirewall
 
 - Name: Security
   Services:
